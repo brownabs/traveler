@@ -1,0 +1,4 @@
+#interestContainer {
+    display: flex;
+    flex-direction: column;
+}
