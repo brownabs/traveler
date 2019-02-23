@@ -1,9 +1,9 @@
 import displayInterests from "./displayInterests";
 import displayInterestForm from "./interestsForm";
 import postNewInterest from "./createNewInterest"
-import editAndDeleteInterest from "./editAndDeleteInterest";
+import deleteInterest from "./deleteInterest";
 
 displayInterests()
 displayInterestForm()
 postNewInterest()
-editAndDeleteInterest()
+deleteInterest()

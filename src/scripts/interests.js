@@ -13,7 +13,6 @@ const createInterestElement = (interest, places) => {
                 <div>${interest.cost}</div>
                 <div>${interest.review}</div>
                 <button id="deleteButton--${interest.id}">Delete</button>
-                <button id="editButton--${interest.id}">Edit</button>
     </section>
    
     `

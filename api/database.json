@@ -16,22 +16,5 @@
       "visa_required": false
     }
   ],
-  "interests": [
-    {
-      "id": 1,
-      "placeId": 1,
-      "name": "Local Market",
-      "description": "Local market where you can try purchase local products and try the local food",
-      "cost": "$$",
-      "review": "kinda expensive"
-    },
-    {
-      "id": 2,
-      "placeId": 1,
-      "name": "Flea Market",
-      "description": "you can find anything here",
-      "cost": "$",
-      "review": "kinda cheap"
-    }
-  ]
+  "interests": []
 }
