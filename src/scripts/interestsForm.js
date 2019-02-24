@@ -2,7 +2,7 @@ import API from "./dataManager"
 
 let displayInterestForm = () => {
 
-       let interestForm = document.querySelector("#interestsFormContainer")
+    let interestForm = document.querySelector("#interestsFormContainer")
 
     let interestFormHTML = `
     <div>
@@ -28,19 +28,19 @@ let displayInterestForm = () => {
     interestForm.innerHTML = interestFormHTML
 
         
-        const createPlacesDropdown = place => `
-        <option value="${place.id}">${place.name}</option>
+    const createPlacesDropdown = place => `
+    <option value="${place.id}">${place.name}</option>
     `
 
-        let allPlaces = []
+    let allPlaces = []
 
-        API.getPlaces()
-        .then(placesArray => {
-            allPlaces = placesArray
-            allPlaces.forEach(
-                (place) => {
-                    const html = createPlacesDropdown(place)
-                    document.querySelector("#placesOption").innerHTML += html 
+    API.getPlaces()
+    .then(placesArray => {
+        allPlaces = placesArray
+        allPlaces.forEach(
+            (place) => {
+                const html = createPlacesDropdown(place)
+                document.querySelector("#placesOption").innerHTML += html 
 
                 }
             )

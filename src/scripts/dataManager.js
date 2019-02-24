@@ -1,6 +1,6 @@
 const API = {
     getInterest: () => {
-    return fetch("http://localhost:8088/interests")
+    return fetch("http://localhost:8088/interests?_expand=place")
         .then(res => res.json())
 },
 getOneInterest: (id) => {
@@ -15,16 +15,6 @@ postNewInterest: (newInterest) => {
             "Content-Type": "application/json"
         },
         body: JSON.stringify(newInterest)
-    })
-},
-
-editInterest: (interestId, newInterestObject) => {
-    return fetch(`http://localhost:8088/articles/${interestId}`, {
-        method: "PUT",
-        headers: {
-            "Content-Type": "application/json"
-        },
-        body: JSON.stringify(newInterestObject)
     })
 },
 

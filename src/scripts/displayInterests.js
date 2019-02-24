@@ -13,10 +13,10 @@ const displayInterests = () => {
                 let interestListEl = document.querySelector("#interestsList")
                 interestListEl.innerHTML = ""
                 
-                interestObjects.forEach((currentObject) => {
-                        console.log(currentObject)
+                interestObjects.forEach((currentInterestObject) => {
+                        
                     
-                    let interestHTML = createInterestElement(currentObject)
+                    let interestHTML = createInterestElement(currentInterestObject)
                    
                     interestListEl.innerHTML += interestHTML
                 })
