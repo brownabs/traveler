@@ -40,6 +40,14 @@
       "review": "not bad",
       "placeId": 2,
       "id": 3
+    }, 
+    {
+      "name": "Mall",
+      "description": "lots of stores",
+      "cost": "$$",
+      "review": "too crowded",
+      "placeId": 3,
+      "id": 4
     }
   ]
 }

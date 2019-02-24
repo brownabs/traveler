@@ -1,6 +1,6 @@
-//this page will listen for the button in the form to be clicked and then store that in a new object that will 
-//post to the API
-
+/* this page will listen for the button in the form to be clicked and then store that in a new object that will 
+   post to the API
+*/
 import APIManager from "./dataManager"
 import displayNewsInterests from "./displayInterests"
 
